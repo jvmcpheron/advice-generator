@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(217, 19%, 24%);
+    font-family: monospace;
+    color: hsl(193, 38%, 86%);
+}
+
+#advice-card{
+    background-color: hsl(217, 19%, 38%);
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 70px 10px hsl(245, 19%, 12%);
+}
+
+#upper-area{
+    height: 100px;
+}
+
+h2{
+    margin-top: 20px;
+    color: hsl(150, 100%, 66%);
+    font-family: monospace;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 23px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: hsl(193, 38%, 86%);
+}
+
+#dice-btn{
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
+    box-shadow: 0px 0px 30px 0px hsl(150, 100%, 66%);
+    
+    
+}
+
+#dice-btn:hover{
+    box-shadow: 0px 0px 30px 10px hsl(150, 100%, 66%);
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
+    background-color: hsl(150, 100%, 72%);
+
+}
+
+#dice-btn:active{
+    background-color: hsl(150, 81%, 64%);
+    box-shadow: 0px 0px 0px 0px hsl(150, 100%, 66%);
+}
