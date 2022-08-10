@@ -6,6 +6,20 @@ let adviceNumber = document.getElementById('number');
 
 
 
+// a lil animation js
+
+let rotation = 0;
+
+const rotateDice = () => {
+    // rotates the dice img 360 degress over .7 seconds on click
+    rotation += 360;
+    if (rotation === 720) rotation = 0;
+    btn.style.transitionDuration = "0.4s";
+    btn.style.transform = `rotate(${rotation}deg)`;
+};
+
+
+
 
 let applyAdvice = (adviceNumData, adviceData) => {
     adviceText.innerHTML = adviceData;
@@ -13,6 +27,7 @@ let applyAdvice = (adviceNumData, adviceData) => {
 }
 
 btn.addEventListener('click' , () =>{
+    rotateDice();
     var adviceFetch = fetch(
         'https://api.adviceslip.com/advice',
         {
@@ -29,3 +44,6 @@ btn.addEventListener('click' , () =>{
     });
     
 })
+
+
+
