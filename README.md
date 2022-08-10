@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/advicegen.png)
 
 
 ### Links
@@ -35,7 +35,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+One thing that this project really solidified is working with third-party APIs. I only had two other projects before this one using third-party APIs, and working on both of them was challenging, and my code was messy. But this third project has really helped me grasp the process and be comfortable accessing APIs.
 
 
 ### Useful resources
